@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="rd"
+           fetch="https://github.com/rd-stuffs"
+           revision="uvite" />
+
+  <remote  name="rd-gitlab"
+           fetch="https://gitlab.com/rdxzv"
+           clone-depth="1"
+           revision="main" />
+
+  <remote  name="lineage"
+           fetch="https://github.com/LineageOS"
+           revision="lineage-21.0" />
+
+  <!-- Build and Core -->
+  <project path="art" name="android_art" remote="rd" />
+  <project path="bionic" name="android_bionic" remote="rd" />
+  <project path="build/make" name="android_build" remote="rd" >
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="android_build_soong" remote="rd" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Device -->
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="rd" >
+    <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk" />
+  </project>
+
+  <!-- External -->
+  <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="rd" />
+  <project path="external/boringssl" name="android_external_boringssl" remote="rd" />
+  <project path="external/skia" name="android_external_skia" remote="rd" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="rd" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="rd" />
+  <project path="external/libdav1d" name="platform/external/libdav1d" remote="aosp" revision="main" />
+  <project path="external/libgav1" name="platform/external/libgav1" remote="aosp" revision="main" />
+  <project path="external/perfetto" name="external_perfetto" remote="rd" />
+  <project path="external/rust/crates/ring" name="external_rust_crates_ring" remote="rd" />
+  <project path="external/zlib" name="android_external_zlib" remote="rd" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="rd" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="rd" />
+  <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="rd" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="rd" />
+
+  <!-- Hardware -->
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="rd" />
+
+  <!-- Manifest -->
+  <project path="manifest" name="manifest" remote="rd" />
+
+  <!-- Packages -->
+  <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="rd" />
+  <project path="packages/apps/Paranoid/SystemUI" name="android_packages_apps_Paranoid_SystemUI" remote="rd" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="rd" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="rd" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="rd" />
+  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="rd" />
+  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="rd" />
+  <project path="packages/modules/StatsD" name="android_packages_modules_StatsD" remote="rd" />
+  <project path="packages/modules/Virtualization" name="packages_modules_Virtualization" remote="rd" />
+
+  <!-- System -->
+  <project path="system/core" name="android_system_core" remote="rd" />
+  <project path="system/nfc" name="android_system_nfc" remote="rd" />
+  <project path="system/vold" name="android_system_vold" remote="rd" />
+
+  <!-- Toolchain -->
+  <project path="toolchain/pgo-profiles" name="android_toolchain_pgo-profiles" remote="rd" />
+
+  <!-- Vendor -->
+  <project path="vendor/aospa" name="android_vendor_aospa" remote="rd" >
+    <linkfile src="build.sh" dest="rom-build.sh" />
+  </project>
+  <project path="vendor/aospa/translations" name="android_vendor_aospa_translations" remote="rd" />
+  <project path="vendor/google/pixel" name="android_vendor_google_pixel" remote="rd" />
+  <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="rd" />
+
+</manifest>

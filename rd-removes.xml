@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Build and Core -->
+  <remove-project name="AOSPA/android_art" />
+  <remove-project name="AOSPA/android_bionic" />
+  <remove-project name="AOSPA/android_build" />
+  <remove-project name="AOSPA/android_build_soong" />
+
+  <!-- Device -->
+  <remove-project name="AOSPA/android_device_qcom_common" />
+
+  <!-- External -->
+  <remove-project name="AOSPA/android_external_arm-optimized-routines" />
+  <remove-project name="AOSPA/android_external_boringssl" />
+  <remove-project name="AOSPA/android_external_skia" />
+  <remove-project name="AOSPA/android_external_sqlite" />
+  <remove-project name="platform/external/f2fs-tools" />
+  <remove-project name="platform/external/libgav1" />
+  <remove-project name="platform/external/perfetto" />
+  <remove-project name="platform/external/rust/crates/ring" />
+  <remove-project name="platform/external/zlib" />
+
+  <!-- Frameworks -->
+  <remove-project name="AOSPA/android_frameworks_av" />
+  <remove-project name="AOSPA/android_frameworks_base" />
+  <remove-project name="AOSPA/android_frameworks_libs_systemui" />
+  <remove-project name="AOSPA/android_frameworks_native" />
+
+  <!-- Hardware -->
+  <remove-project name="AOSPA/android_hardware_interfaces" />
+
+  <!-- Manifest -->
+  <remove-project name="AOSPA/manifest" />
+
+  <!-- Packages -->
+  <remove-project name="AOSPA/android_packages_apps_Paranoid_SystemUI" />
+  <remove-project name="AOSPA/android_packages_apps_Launcher3" />
+  <remove-project name="AOSPA/android_packages_apps_Nfc" />
+  <remove-project name="AOSPA/android_packages_apps_Settings" />
+  <remove-project name="AOSPA/android_packages_modules_Bluetooth" />
+  <remove-project name="AOSPA/android_packages_modules_Connectivity" />
+  <remove-project name="AOSPA/android_packages_modules_StatsD" />
+  <remove-project name="platform/packages/modules/Virtualization" />
+
+  <!-- System -->
+  <remove-project name="AOSPA/android_system_core" />
+  <remove-project name="AOSPA/android_system_nfc" />
+  <remove-project name="AOSPA/android_system_vold" />
+
+  <!-- Toolchain -->
+  <remove-project name="AOSPA/android_toolchain_pgo-profiles" />
+
+  <!-- Vendor -->
+  <remove-project name="AOSPA/android_vendor_aospa" />
+  <remove-project name="AOSPA/android_vendor_aospa_translations" />
+  <remove-project name="android_vendor_google_pixel" />
+  <remove-project name="proprietary_vendor_qcom_common" />
+
+</manifest>
