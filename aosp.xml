@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- CTS -->
-<!--   <remove-project name="platform/cts" />
-  <project path="cts" name="platform/cts" remote="aosp" clone-depth="1" /> -->
+
+  <!-- Bootable -->
+  <project path="bootable/deprecated-ota" name="platform/bootable/deprecated-ota" remote="aosp" />
 
   <!-- External -->
   <remove-project name="platform/external/angle" />

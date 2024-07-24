@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Build and Core -->
+  <remove-project name="AOSPA/android_bionic" />
+  <remove-project name="AOSPA/android_build_soong" />
+
+  <!-- Device -->
+  <remove-project name="AOSPA/android_device_qcom_common" />
+
+  <!-- Frameworks -->
+  <remove-project name="AOSPA/android_frameworks_native" />
+
+  <!-- Hardware -->
+  <remove-project name="AOSPA/android_hardware_interfaces" />
+  <remove-project name="AOSPA/android_hardware_qcom_wlan" />
+
+  <!-- Manifest -->
+  <remove-project name="AOSPA/manifest" />
+
+  <!-- Packages -->
+  <remove-project name="AOSPA/android_packages_apps_Launcher3" />
+  <remove-project name="AOSPA/android_packages_modules_Nfc" />
+  <remove-project name="platform/packages/modules/Connectivity" />
+  <remove-project name="platform/packages/modules/Wifi" />
+  <remove-project name="platform/packages/services/DeviceAsWebcam" />
+
+  <!-- System -->
+  <remove-project name="AOSPA/android_system_core" />
+  <remove-project name="platform/system/memory/libmeminfo" />
+
+  <!-- Vendor -->
+  <remove-project name="AOSPA/android_vendor_aospa" />
+
+</manifest>
