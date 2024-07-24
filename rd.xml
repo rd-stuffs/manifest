@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="rd"
+           fetch="https://github.com/rd-stuffs"
+           revision="vauxite" />
+
+  <!-- Build and Core -->
+  <project path="bionic" name="android_bionic" remote="rd" />
+  <project path="build/soong" name="android_build_soong" remote="rd" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Device -->
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="rd" >
+    <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk" />
+  </project>
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="rd" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/base" name="android_frameworks_base" remote="rd" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="rd" />
+
+  <!-- Hardware -->
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="rd" />
+
+  <!-- Manifest -->
+  <project path="manifest" name="manifest" remote="rd" />
+
+  <!-- Packages (AOSPA) -->
+  <project path="packages/apps/ParanoidSettings" name="android_packages_apps_ParanoidSettings" remote="rd" />
+  <project path="packages/apps/ParanoidSystemUI" name="android_packages_apps_Paranoid_SystemUI" remote="rd" />
+
+  <!-- Packages -->
+  <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="rd" />
+  <project path="packages/apps/LMOFreeform" name="android_packages_apps_LMOFreeform" remote="rd" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="rd" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="rd" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="rd" />
+  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="rd" />
+  <project path="packages/services/DeviceAsWebcam" name="android_packages_services_DeviceAsWebcam" remote="rd" />
+
+  <!-- System -->
+  <project path="system/core" name="android_system_core" remote="rd" />
+
+  <!-- Vendor -->
+  <project path="vendor/aospa" name="android_vendor_aospa" remote="rd" >
+    <linkfile src="build.sh" dest="rom-build.sh" />
+  </project>
+  <project path="vendor/aospa/translations" name="android_vendor_aospa_translations" remote="rd" />
+  <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="rd" />
+
+</manifest>
