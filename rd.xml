@@ -67,6 +67,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="rd" />
+  <project path="packages/apps/LMOFreeform" name="android_packages_apps_LMOFreeform" remote="rd" />
   <project path="packages/apps/Paranoid/SystemUI" name="android_packages_apps_Paranoid_SystemUI" remote="rd" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="rd" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="rd" />
