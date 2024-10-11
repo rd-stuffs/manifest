@@ -6,6 +6,7 @@
   <remove-project name="AOSPA/android_bionic" />
   <remove-project name="AOSPA/android_build" />
   <remove-project name="AOSPA/android_build_soong" />
+  <remove-project name="AOSPA/android_libcore" />
 
   <!-- Device -->
   <remove-project name="AOSPA/android_device_qcom_common" />
@@ -41,6 +42,8 @@
   <remove-project name="AOSPA/android_packages_modules_Bluetooth" />
   <remove-project name="AOSPA/android_packages_modules_Connectivity" />
   <remove-project name="AOSPA/android_packages_modules_StatsD" />
+  <remove-project name="AOSPA/android_packages_modules_Wifi" />
+  <remove-project name="platform/packages/modules/IntentResolver" />
   <remove-project name="platform/packages/modules/Virtualization" />
 
   <!-- System -->

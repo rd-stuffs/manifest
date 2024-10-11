@@ -29,6 +29,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="libcore" name="android_libcore" remote="rd" />
 
   <!-- Device -->
   <project path="device/qcom/common" name="android_device_qcom_common" remote="rd" >
@@ -68,6 +69,8 @@
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="rd" />
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="rd" />
   <project path="packages/modules/StatsD" name="android_packages_modules_StatsD" remote="rd" />
+  <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="rd" />
+  <project path="packages/modules/IntentResolver" name="android_packages_modules_IntentResolver" remote="rd" />
   <project path="packages/modules/Virtualization" name="packages_modules_Virtualization" remote="rd" />
 
   <!-- System -->
