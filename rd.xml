@@ -50,6 +50,7 @@
   <project path="external/perfetto" name="external_perfetto" remote="rd" />
   <project path="external/rust/crates/ring" name="external_rust_crates_ring" remote="rd" />
   <project path="external/zlib" name="android_external_zlib" remote="rd" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="rd" />
