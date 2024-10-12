@@ -40,6 +40,7 @@
   <!-- External -->
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="rd" />
   <project path="external/boringssl" name="android_external_boringssl" remote="rd" />
+  <project path="external/jemalloc_new" name="android_external_jemalloc-new" remote="rd" />
   <project path="external/skia" name="android_external_skia" remote="rd" />
   <project path="external/sqlite" name="android_external_sqlite" remote="rd" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="rd" />

@@ -15,6 +15,7 @@
   <!-- External -->
   <remove-project name="AOSPA/android_external_arm-optimized-routines" />
   <remove-project name="AOSPA/android_external_boringssl" />
+  <remove-project name="AOSPA/android_external_jemalloc-new" />
   <remove-project name="AOSPA/android_external_skia" />
   <remove-project name="AOSPA/android_external_sqlite" />
   <remove-project name="AOSPA/android_external_wpa_supplicant_8" />
