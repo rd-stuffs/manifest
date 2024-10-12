@@ -35,12 +35,14 @@
   <project path="device/qcom/common" name="android_device_qcom_common" remote="rd" >
     <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk" />
   </project>
+  <project path="device/qcom/qssi" name="android_device_qcom_qssi" remote="rd" />
 
   <!-- External -->
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="rd" />
   <project path="external/boringssl" name="android_external_boringssl" remote="rd" />
   <project path="external/skia" name="android_external_skia" remote="rd" />
   <project path="external/sqlite" name="android_external_sqlite" remote="rd" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="rd" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="rd" />
   <project path="external/libdav1d" name="platform/external/libdav1d" remote="aosp" revision="main" />
   <project path="external/libgav1" name="platform/external/libgav1" remote="aosp" revision="main" />
@@ -88,5 +90,15 @@
   <project path="vendor/aospa/translations" name="android_vendor_aospa_translations" remote="rd" />
   <project path="vendor/google/pixel" name="android_vendor_google_pixel" remote="rd" />
   <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="rd" />
+
+  <!-- Vendor (QCOM QSSI) -->
+  <project path="vendor/qcom/opensource/core-utils" name="android_vendor_qcom-opensource_core-utils" remote="rd" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_commonsys-intf_display" remote="rd" >
+    <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk" />
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk" />
+  </project>
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom-opensource_packages_apps_Bluetooth" remote="rd" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_commonsys_system_bt" remote="rd" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom-opensource_display-commonsys" remote="rd" />
 
 </manifest>

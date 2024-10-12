@@ -10,12 +10,14 @@
 
   <!-- Device -->
   <remove-project name="AOSPA/android_device_qcom_common" />
+  <remove-project name="AOSPA/android_device_qcom_qssi" />
 
   <!-- External -->
   <remove-project name="AOSPA/android_external_arm-optimized-routines" />
   <remove-project name="AOSPA/android_external_boringssl" />
   <remove-project name="AOSPA/android_external_skia" />
   <remove-project name="AOSPA/android_external_sqlite" />
+  <remove-project name="AOSPA/android_external_wpa_supplicant_8" />
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/libgav1" />
   <remove-project name="platform/external/perfetto" />
@@ -59,5 +61,12 @@
   <remove-project name="AOSPA/android_vendor_aospa_translations" />
   <remove-project name="android_vendor_google_pixel" />
   <remove-project name="proprietary_vendor_qcom_common" />
+
+  <!-- Vendor (QCOM QSSI) -->
+  <remove-project name="AOSPA/android_vendor_qcom-opensource_core-utils" />
+  <remove-project name="AOSPA/android_vendor_qcom_opensource_commonsys-intf_display" />
+  <remove-project name="AOSPA/android_vendor_qcom-opensource_packages_apps_Bluetooth" />
+  <remove-project name="AOSPA/android_vendor_qcom_opensource_commonsys_system_bt" />
+  <remove-project name="AOSPA/android_vendor_qcom-opensource_display-commonsys" />
 
 </manifest>
