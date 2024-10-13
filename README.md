@@ -41,7 +41,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init --depth=1 -u https://github.com/rd-stuffs/manifest -b uvite --git-lfs
+$ repo init --depth=1 -u https://github.com/rd-stuffs/manifest -b uvite
 ```
 
 ### Downloading the source tree ###
