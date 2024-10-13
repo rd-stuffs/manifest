@@ -103,4 +103,7 @@
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_commonsys_system_bt" remote="rd" />
   <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom-opensource_display-commonsys" remote="rd" />
 
+  <!-- Vendor (QCOM Vendor) -->
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom-opensource_power" remote="rd" />
+
 </manifest>

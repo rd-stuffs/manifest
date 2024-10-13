@@ -70,4 +70,7 @@
   <remove-project name="AOSPA/android_vendor_qcom_opensource_commonsys_system_bt" />
   <remove-project name="AOSPA/android_vendor_qcom-opensource_display-commonsys" />
 
+  <!-- Vendor (QCOM Vendor) -->
+  <remove-project name="AOSPA/android_vendor_qcom-opensource_power" />
+
 </manifest>
