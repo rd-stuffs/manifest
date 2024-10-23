@@ -94,6 +94,7 @@
   <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="rd" />
 
   <!-- Vendor (QCOM QSSI) -->
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom-opensource_bluetooth-commonsys-intf" remote="rd" />
   <project path="vendor/qcom/opensource/core-utils" name="android_vendor_qcom-opensource_core-utils" remote="rd" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_commonsys-intf_display" remote="rd" >
     <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk" />
