@@ -90,6 +90,7 @@
     <linkfile src="build.sh" dest="rom-build.sh" />
   </project>
   <project path="vendor/aospa/translations" name="android_vendor_aospa_translations" remote="rd" />
+  <project path="vendor/aospa/apps/ParanoidThemePicker" name="vendor_aospa_apps_ParanoidThemePicker" remote="rd" />
   <project path="vendor/google/pixel" name="android_vendor_google_pixel" remote="rd" />
   <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="rd" />
 

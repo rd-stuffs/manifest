@@ -60,6 +60,7 @@
   <!-- Vendor -->
   <remove-project name="AOSPA/android_vendor_aospa" />
   <remove-project name="AOSPA/android_vendor_aospa_translations" />
+  <remove-project name="AOSPA/vendor_aospa_apps_ParanoidThemePicker" />
   <remove-project name="android_vendor_google_pixel" />
   <remove-project name="proprietary_vendor_qcom_common" />
 
