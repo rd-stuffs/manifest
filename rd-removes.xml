@@ -25,6 +25,11 @@
   <remove-project name="platform/external/rust/crates/ring" />
   <remove-project name="platform/external/zlib" />
 
+  <!-- External (Fonts) -->
+  <remove-project name="AOSPA/android_external_noto-fonts" />
+  <remove-project name="platform/external/google-fonts/cutive-mono" />
+  <remove-project name="platform/external/roboto-fonts" />
+
   <!-- Frameworks -->
   <remove-project name="AOSPA/android_frameworks_av" />
   <remove-project name="AOSPA/android_frameworks_base" />

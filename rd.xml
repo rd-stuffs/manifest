@@ -52,6 +52,11 @@
   <project path="external/zlib" name="android_external_zlib" remote="rd" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
 
+  <!-- External (Fonts) -->
+  <project path="external/noto-fonts" name="android_external_noto-fonts" remote="rd" />
+  <project path="external/google-fonts/cutive-mono" name="android_external_google-fonts_cutive-mono" remote="rd" revision="topaz" />
+  <project path="external/roboto-fonts" name="android_external_roboto-fonts" remote="rd" revision="topaz" />
+
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="rd" />
   <project path="frameworks/base" name="android_frameworks_base" remote="rd" />
