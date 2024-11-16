@@ -51,6 +51,8 @@
   <remove-project name="AOSPA/android_packages_modules_Connectivity" />
   <remove-project name="AOSPA/android_packages_modules_StatsD" />
   <remove-project name="AOSPA/android_packages_modules_Wifi" />
+  <remove-project name="AOSPA/android_packages_services_Telecomm" />
+  <remove-project name="AOSPA/android_packages_services_Telephony" />
   <remove-project name="platform/packages/modules/IntentResolver" />
   <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/modules/Virtualization" />
