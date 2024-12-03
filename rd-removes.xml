@@ -30,6 +30,7 @@
   <remove-project name="AOSPA/android_frameworks_base" />
   <remove-project name="AOSPA/android_frameworks_libs_systemui" />
   <remove-project name="AOSPA/android_frameworks_native" />
+  <remove-project name="AOSPA/android_frameworks_opt_telephony" />
 
   <!-- Hardware -->
   <remove-project name="AOSPA/android_hardware_interfaces" />
@@ -46,6 +47,7 @@
   <remove-project name="AOSPA/android_packages_modules_Connectivity" />
   <remove-project name="AOSPA/android_packages_modules_StatsD" />
   <remove-project name="AOSPA/android_packages_modules_Wifi" />
+  <remove-project name="AOSPA/android_packages_providers_MediaProvider" />
   <remove-project name="AOSPA/android_packages_services_Telecomm" />
   <remove-project name="AOSPA/android_packages_services_Telephony" />
   <remove-project name="platform/packages/modules/IntentResolver" />
