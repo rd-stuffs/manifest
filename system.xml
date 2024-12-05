@@ -1179,7 +1179,7 @@
     <linkfile dest="vendor/qcom/defs/product-defs/system/bt-system-opensource-product.mk" src="bt-system-opensource-product.mk"/>
   </project>
   <project remote="clo-la" name="platform/vendor/qcom-opensource/bluetooth_ext" path="vendor/qcom/opensource/commonsys/bluetooth_ext" revision="a58635873b38f709e985d83bc166932fe961e50d" upstream="refs/heads/bt-sys.lnx.13.0.r3-rel" groups="qc-common-sys-intf,vsdk_inc_L0,vsdk_exc_L1,vsdk_exc_L2,vsdk_exc_L3"/>
-  <project remote="clo-la" name="platform/vendor/qcom-opensource/core-utils" path="vendor/qcom/opensource/core-utils" revision="1ff5dccdd307b86e0f8f45c2788a6ac5bb4e73d6" upstream="refs/heads/android-core-sysintf.lnx.13.0.r3-rel" groups="qc-common-sys-intf,vsdk_inc_L0,cyborg,vsdk_inc_L1,vsdk_inc_L2,vsdk_inc_L3">
+  <project remote="clo-la" name="platform/vendor/qcom-opensource/core-utils" path="vendor/qcom/opensource/core-utils" revision="ff23a897b5f69226c2a0178169aeeada1428fd7e" upstream="refs/heads/android-core-sysintf.lnx.13.0.r3-rel" groups="qc-common-sys-intf,vsdk_inc_L0,cyborg,vsdk_inc_L1,vsdk_inc_L2,vsdk_inc_L3">
     <linkfile dest="vendor/qcom/build/tasks/QSSI_violators.mk" src="build/QSSI_violators.mk"/>
     <linkfile dest="vendor/qcom/build/tasks/QMAA_enforcement.mk" src="build/QMAA_enforcement.mk"/>
     <linkfile dest="vendor/qcom/build/tasks/vendor_prop_context_restriction.mk" src="build/vendor_prop_context_restriction.mk"/>
