@@ -38,7 +38,7 @@
   <project remote="clo-la" name="device/qcom/qssi_sdg" path="device/qcom/qssi_sdg" revision="91820b6c19a016f8474b457a24ecd6236aff3d7a" upstream="refs/heads/qcom-qssi.lnx.13.0.r4-rel" groups="qc-common-sys-intf,vsdk_inc_L0,vsdk_inc_L1,vsdk_inc_L2,vsdk_inc_L3"/>
   <project remote="clo-la" name="device/qcom/qssi_xrl" path="device/qcom/qssi_xrl" revision="3069abd8a5b0429dfca296b636663673a6df5f4c" upstream="refs/heads/qcom-qssi.lnx.13.0.r4-rel" groups="qc-common-sys-intf,vsdk_inc_L0,vsdk_inc_L1,vsdk_inc_L2,vsdk_inc_L3"/>
   <project remote="clo-la" name="device/qcom/qssi_xrM" path="device/qcom/qssi_xrM" revision="3b54c0cbb97c402b728d8ebca0d7bde132f6cd09" upstream="refs/heads/qcom-qssi.lnx.13.0.r4-rel" groups="qc-common-sys-intf,vsdk_inc_L0,vsdk_inc_L1,vsdk_inc_L2,vsdk_inc_L3"/>
-  <project remote="clo-la" name="device/qcom/sepolicy" path="device/qcom/sepolicy" revision="14681e73638104c66f43c8a22773a99d62d0e824" upstream="refs/heads/qvr-sys.lnx.13.0.r4-rel" groups="qc-common-sys-intf,vsdk_inc_L0,vsdk_inc_L1,vsdk_inc_L2,vsdk_inc_L3"/>
+  <project remote="clo-la" name="device/qcom/sepolicy" path="device/qcom/sepolicy" revision="124c8fb108f6eff743e734da6137cc26df8bdabd" upstream="refs/heads/qvr-sys.lnx.13.0.r4-rel" groups="qc-common-sys-intf,vsdk_inc_L0,vsdk_inc_L1,vsdk_inc_L2,vsdk_inc_L3"/>
   <project remote="clo-la" name="device/sample" path="device/sample" revision="c4e81ede2b31584edfcde496d248eb6af041cc41" upstream="refs/heads/ks-aosp.lnx.14.0.r1-rel" groups="aosp-android14-release,pdk,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3"/>
   <project remote="clo-la" name="kernel/configs" path="kernel/configs" revision="a5e4c6dbf43088fc61a0b9441d5b65aa90f65a75" upstream="refs/heads/ks-aosp.lnx.14.0.r1-rel" groups="aosp-android14-release,pdk,vts,qc-common-sys-intf,vsdk_inc_L2,vsdk_inc_L1,vsdk_inc_L3"/>
   <project remote="clo-la" name="kernel/prebuilts/4.19/arm64" path="kernel/prebuilts/4.19/arm64" revision="a62baa1044d372d0b632d80164e33715c5147311" upstream="refs/heads/ks-aosp.lnx.14.0.r1-rel" groups="aosp-android14-release,pdk,qc-common-sys,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3"/>
@@ -1179,7 +1179,7 @@
     <linkfile dest="vendor/qcom/defs/product-defs/system/bt-system-opensource-product.mk" src="bt-system-opensource-product.mk"/>
   </project>
   <project remote="clo-la" name="platform/vendor/qcom-opensource/bluetooth_ext" path="vendor/qcom/opensource/commonsys/bluetooth_ext" revision="a58635873b38f709e985d83bc166932fe961e50d" upstream="refs/heads/bt-sys.lnx.13.0.r3-rel" groups="qc-common-sys-intf,vsdk_inc_L0,vsdk_exc_L1,vsdk_exc_L2,vsdk_exc_L3"/>
-  <project remote="clo-la" name="platform/vendor/qcom-opensource/core-utils" path="vendor/qcom/opensource/core-utils" revision="ff23a897b5f69226c2a0178169aeeada1428fd7e" upstream="refs/heads/android-core-sysintf.lnx.13.0.r3-rel" groups="qc-common-sys-intf,vsdk_inc_L0,cyborg,vsdk_inc_L1,vsdk_inc_L2,vsdk_inc_L3">
+  <project remote="clo-la" name="platform/vendor/qcom-opensource/core-utils" path="vendor/qcom/opensource/core-utils" revision="c57995560c7f86d6d4d2aaafeb3b27bfb856d65b" upstream="refs/heads/android-core-sysintf.lnx.13.0.r3-rel" groups="qc-common-sys-intf,vsdk_inc_L0,cyborg,vsdk_inc_L1,vsdk_inc_L2,vsdk_inc_L3">
     <linkfile dest="vendor/qcom/build/tasks/QSSI_violators.mk" src="build/QSSI_violators.mk"/>
     <linkfile dest="vendor/qcom/build/tasks/QMAA_enforcement.mk" src="build/QMAA_enforcement.mk"/>
     <linkfile dest="vendor/qcom/build/tasks/vendor_prop_context_restriction.mk" src="build/vendor_prop_context_restriction.mk"/>
