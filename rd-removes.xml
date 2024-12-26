@@ -57,6 +57,7 @@
   <!-- System -->
   <remove-project name="AOSPA/android_system_core" />
   <remove-project name="AOSPA/android_system_nfc" />
+  <remove-project name="AOSPA/android_system_sepolicy" />
   <remove-project name="AOSPA/android_system_vold" />
 
   <!-- Toolchain -->

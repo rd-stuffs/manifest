@@ -85,6 +85,7 @@
   <!-- System -->
   <project path="system/core" name="android_system_core" remote="rd" />
   <project path="system/nfc" name="android_system_nfc" remote="rd" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="rd" />
   <project path="system/vold" name="android_system_vold" remote="rd" />
 
   <!-- Toolchain -->
