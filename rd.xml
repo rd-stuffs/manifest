@@ -73,7 +73,7 @@
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="rd" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="rd" />
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="rd" />
-  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="rd" />
+  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity-old" remote="rd" />
   <project path="packages/modules/StatsD" name="android_packages_modules_StatsD" remote="rd" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="rd" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="rd" />
