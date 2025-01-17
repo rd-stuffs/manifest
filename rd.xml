@@ -44,6 +44,7 @@
   <project path="external/skia" name="android_external_skia" remote="rd" />
   <project path="external/sqlite" name="android_external_sqlite" remote="rd" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="rd" />
+  <project path="external/giflib" name="android_external_giflib" remote="rd" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="rd" />
   <project path="external/libdav1d" name="platform/external/libdav1d" remote="aosp" revision="a8c10fb2536aa15d2922d2abd319af8d5b430a53" />
   <project path="external/libgav1" name="platform/external/libgav1" remote="aosp" revision="36df44979c1ea9e7bc1705359a6f583ace3f9641" />
